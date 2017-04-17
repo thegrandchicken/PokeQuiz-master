@@ -5,13 +5,6 @@
     android:background="@color/foreground_material_dark"
     tools:context="com.example.csaper6.pokequiz.SplashScreenActivity">
 
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
-
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-
     <ImageView
         android:layout_width="196dp"
         android:layout_height="208dp"
@@ -19,11 +12,11 @@
         android:layout_gravity="center" />
 
     <ImageView
-        android:layout_width="287dp"
-        android:layout_height="100dp"
-        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="196dp"
+        android:layout_height="208dp"
         android:src="@drawable/app_name"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_marginTop="30dp" />
+        android:layout_gravity="center"
+        android:id="@+id/imageView" />
+
 
 </FrameLayout>
